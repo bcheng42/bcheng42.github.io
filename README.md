@@ -1,1 +1,1 @@
-This will be my personal webpage, eventually, hopefully.
+Brittany Cheng's personal webpage. Future contents: bio, design work, pm experience, web presence.
