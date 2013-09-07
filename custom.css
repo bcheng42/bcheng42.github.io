@@ -36,8 +36,7 @@ h6,
 
 /* Set the fixed height of the footer here */
 #footer {
-  height: 60px;
-  background-color: #f5f5f5;
+  height: auto;
 }
 
 /* Custom page CSS
@@ -63,6 +62,14 @@ h6,
 
 h3 {
   margin-top: 0%;
+}
+
+#web {
+  margin-bottom: -1%;
+}
+
+#web a {
+  padding-right: 3%;
 }
 
 #dash, #learned {
@@ -156,7 +163,7 @@ h3 {
 }
 
 #j13 {
-  top: 17em;
+  top: 17.5em;
   left: 10em;
   width: 7em;
   height: 5em;
