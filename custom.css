@@ -46,7 +46,7 @@ h6,
 .container {
   width: auto;
   max-width: 80%;
-  padding: 15px 15px 0px 15px;
+  padding: 0 15px;
 }
 .container .credit {
   margin: 20px 0;
@@ -65,7 +65,7 @@ h3 {
   margin-top: 0%;
 }
 
-#dash, #info, #learned {
+#dash, #learned {
   float: left;
   margin-top: 1%;
 }
