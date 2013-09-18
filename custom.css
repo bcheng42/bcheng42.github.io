@@ -6,6 +6,7 @@ body {
   height: 100%;
   /* The html and body elements cannot have any padding or margin. */
   font-family: 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+  background: #F6F6F6;
 }
 
 h1,
@@ -64,6 +65,10 @@ h3 {
   margin-top: 0%;
 }
 
+p {
+  margin-bottom: 2%;
+}
+
 #web {
   margin-bottom: -1%;
 }
@@ -77,15 +82,13 @@ h3 {
   margin-top: 1%;
 }
 
-#dash img {
+#dash img, #kp img {
   margin-bottom: 3%;
   margin-right: 2%;
-  border: black 1px solid;
 }
 
 #info img {
   margin-right: 2%;
-  border: black 1px solid;
 }
 
 /* Venn Diagram
@@ -100,7 +103,6 @@ h3 {
   margin: .5em auto;
   padding: 1em;
   position: relative;
-  background-color: #fff;
   height: 40em;
 }
 
