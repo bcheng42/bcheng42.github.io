@@ -2,10 +2,19 @@
 <html>
   <head>
     <title>Magoosh Internship</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap -->
+
+    <!-- Mobile Specific Metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- CSS
+    ================================================== -->
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="stylesheets/base.css">
+    <link rel="stylesheet" href="stylesheets/skeleton.css">
+    <link rel="stylesheet" href="stylesheets/layout.css">
     <link href="custom.css" rel="stylesheet">
+
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 
@@ -17,108 +26,105 @@
   </head>
   <body>
     <div class="container">
-      <!--img id="profile" src="http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,h_540,w_720/ysjkfvtyverckarjwqn3.png" width="200" align="left"-->
-      <a href="index.html"><h1>brittany cheng</h1></a>
-    </div>
-
-    <div class="container">
-      <a href="http://magoosh.com"><img src="images/magoosh.png" width="200" align="right"></a>
-      <h2>User Experience &amp; Design Internship</h2>
-      <h3>May - December 2011 <br/> Berkeley, CA</h3>
-      <br/>
-
-      <h3>Overview</h3>
-      <p>Created a consistent and intuitive user experience across all Magoosh test prep web application products through multiple iterations of rapid prototyping and over ten hours of user testing </p>
-      <p>Collaborated with web developers to design and implement visual layout of landing pages and web application</p>
-      <p>Supported Magoosh marketing team through graphic design (infographics, ads, web graphics)</p>
-
-      <h3>Preparation</h3>
-      <p> To prepare for this role, I read the following books: </p>
-      <ul>
-        <li><a href="http://amzn.com/0321344758"> Don't Make Me Think</a> by Steven Krug </li>
-        <li><a href="http://amzn.com/032145345X"> Designing the Obvious</a> by Robert Hoekman Jr.</li>
-        <li><a href="http://37signals.com/rework"> Rework</a> by Jason Fried and David Heinemeier Hansson</li>
-      </ul>
-
-      <h3> Projects </h3>
-      <div id="info">
-        <h4> 1. New GRE Infographic </h4>
-        <p align="justify">In August 2011, the Graduate Record Exam (GRE) underwent a huge revision. In order to communicate these changes in the revised GRE to potential test-takers, I created an infographic for Magoosh, a GRE test preparation startup. Creating this infographic involved several weeks of sketching and iterations. At each iteration, I showed the infographic to fellow Magoosh co-workers to make sure all the information was clearly communicated. Anything that was unclear or didn't make sense was redone. This is the third and final iteration. Click on the screens below to see the full infographic. </p>
-        <a href="images/newgre.png">
-          <img src="images/smallnewgre.png" width="400" align="left">
-          <img src="images/small2.png" width="400" align="left">
-        </a>
+      <div class="sixteen columns" id="name">
+        <a href="index.html"><h1 class="remove-bottom" style="margin-top: 40px">brittany cheng</h1></a>
+        <hr/>
       </div>
 
-      <div id="dash">
-        <h4> 2. Dashboard Redesign</h4>
-        <p align="justify"> During the summer of 2011, Magoosh added video lessons to our GRE test preparation product. In order to integrate these changes, I was tasked with conducting user tests to discover the best way to integrate lessons (and lesson suggestions) into the product dashboard. After eleven hours of user testing, I learned:
-        <ol>
-          <li> Users heavily use the two green buttons to start practice sessions.</li>
-          <li> Users wanted to see a visual depiction of their progress, and especially liked pie charts.</li>
-          <li> There was a disconnect between the parts of the dashboard and the rest of the product.</li>
-        </ol>
-        As a result, we made the following design decisions:
-        <ol>
-          <li>Keep the green quick start buttons so users can continue to quickly start practice sessions.</li>
-          <li>More clear visualization of user's study progress.</li>
-          <li>Connect the parts of the dashboard to related product pages with small corner links.</li>
-        </ol>
-        Here are a series of screenshots depicting my design process, before and after user testing, as well as the final result.
-        <br/><br/>
-        <div class="col-md-4">
-          <h4>Old Dashboard</h4>
-          <p>The old dashboard for Magoosh GRE Test Prep. Note that at this point, the product did not have video lessons. Users complained of clutteredness, but found detailed statistics in the table to be useful.</p>
-        </div>
-          <img src="images/olddash.png">
-
-        <div class="col-md-4">
-          <h4>Low-Fi Mockup</h4>
-          <p>Low-fidelity mockup of a possible dashboard integrating suggested lessons, created with Balsamiq Mockups, based on the results of of 5 early user tests. This mockup was tested with 5 more users.</p>
-        </div>
-          <img src="images/lofidash.png">
-
-        <div class="col-md-4">
-          <h4>High-Fi Mockup</h4>
-          <p>A high-fidelity Dashboard mockup I created in Adobe Photoshop based on user testing results. A reminder of what we discovered through user testing:
-          <ol>
-            <li>Users heavily use the two green buttons to start practice sessions.</li>
-            <li>Users wanted to see a visual depiction of their progress, and especially liked pie charts.</li>
-            <li>There was a disconnect between the parts of the dashboard and the rest of the product.</li>
-          </ol>
-          </p>
-        </div>
-        <img src="images/hifidash.jpg">
-
-        <div class="col-md-4">
-          <h4>The New Dashboard</h4>
-          <p>Incorporates the changes from previous iterations, derived from user feedback. The new dashboard features:
-            <ul>
-              <li>Suggested Lessons: An easy way for users to find relevant video lessons and follow a video curriculum.</li>
-              <li>Progress Charts: A visual way for users to track their own progress and compare with other users.</li>
-              <li>Improved Navigation: The new dashboard features links that allow users to easily navigate to the various sections of Magoosh GRE Prep.
-          </p>
-        </div>
-        <img src="images/newdash.png">
-
+      <div class="one-third column">
+        <a href="http://magoosh.com"><img src="images/magoosh.png" class="scale-with-grid comp"></a>
+        <h4>User Experience &amp; Design Internship</h4>
+        <h5>May - December 2011 <br/> Berkeley, CA</h5>
+        <br/>
       </div>
 
-      <div id="learned">
-
-        <h3>What I Learned</h3>
-        <ul>
-          <li>Value of iterative design and team feedback</li>
-          <li>Effective ad strategy and design</li>
-          <li>Strategies for cost-effective and informational usability testing</li>
-          <li>Synthesizing user feedback and generating product insights</li>
-          <li>Basic HTML/CSS</li>
+      <div class="two-thirds column">
+        <h3>Overview</h3>
+        <ul class="square">
+          <li>Created a consistent and intuitive user experience across all Magoosh test prep web application products through multiple iterations of rapid prototyping and over ten hours of user testing </li>
+          <li>Collaborated with web developers to design and implement visual layout of landing pages and web application</li>
+          <li>Supported Magoosh marketing team through graphic design (infographics, ads, web graphics)</li>
         </ul>
+
+        <h3>Preparation</h3>
+        <p> To prepare for this role, I read the following books: </p>
+        <ul class="square">
+          <li><a href="http://amzn.com/0321344758"> Don't Make Me Think</a> by Steven Krug </li>
+          <li><a href="http://amzn.com/032145345X"> Designing the Obvious</a> by Robert Hoekman Jr.</li>
+          <li><a href="http://37signals.com/rework"> Rework</a> by Jason Fried and David Heinemeier Hansson</li>
+        </ul>
+
+        <h3> Projects </h3>
+        <div id="info">
+          <h4> 1. New GRE Infographic </h4>
+          <p align="justify">In August 2011, the Graduate Record Exam (GRE) underwent a huge revision. In order to communicate these changes in the revised GRE to potential test-takers, I created an infographic for Magoosh, a GRE test preparation startup. Creating this infographic involved several weeks of sketching and iterations. At each iteration, I showed the infographic to fellow Magoosh co-workers to make sure all the information was clearly communicated. Anything that was unclear or didn't make sense was redone. This is the third and final iteration. Click on the screen below to see the full infographic. </p>
+          <a href="images/newgre.png">
+            <img src="images/smallnewgre.png" class="scale-with-grid">
+          </a>
+        </div>
+
+        <div id="dash">
+          <h4> 2. Dashboard Redesign</h4>
+          <p align="justify"> During the summer of 2011, Magoosh added video lessons to our GRE test preparation product. In order to integrate these changes, I was tasked with conducting user tests to discover the best way to integrate lessons (and lesson suggestions) into the product dashboard. After eleven hours of user testing, I learned:
+          <ol>
+            <li> Users heavily use the two green buttons to start practice sessions.</li>
+            <li> Users wanted to see a visual depiction of their progress, and especially liked pie charts.</li>
+            <li> There was a disconnect between the parts of the dashboard and the rest of the product.</li>
+          </ol>
+          As a result, we made the following design decisions:
+          <ol>
+            <li>Keep the green quick start buttons so users can continue to quickly start practice sessions.</li>
+            <li>More clear visualization of user's study progress.</li>
+            <li>Connect the parts of the dashboard to related product pages with small corner links.</li>
+          </ol>
+          Here are a series of screenshots depicting my design process, before and after user testing, as well as the final result.
+          <br/><br/>
+          <p><strong>Old Dashboard:</strong> The old dashboard for Magoosh GRE Test Prep. Note that at this point, the product did not have video lessons. Users complained of clutteredness, but found detailed statistics in the table to be useful.</p>
+
+          <img src="images/olddash.png" class="scale-with-grid">
+
+          <p><strong>Low-Fi Mockup:</strong> Low-fidelity mockup of a possible dashboard integrating suggested lessons, created with Balsamiq Mockups, based on the results of of 5 early user tests. This mockup was tested with 5 more users.</p>
+          
+          <img src="images/lofidash.png" class="scale-with-grid">
+
+          <p><strong>High-Fi Mockup:</strong> A high-fidelity Dashboard mockup I created in Adobe Photoshop based on user testing results. A reminder of what we discovered through user testing:
+            <ol>
+              <li>Users heavily use the two green buttons to start practice sessions.</li>
+              <li>Users wanted to see a visual depiction of their progress, and especially liked pie charts.</li>
+              <li>There was a disconnect between the parts of the dashboard and the rest of the product.</li>
+            </ol>
+          </p>
+          
+          <img src="images/hifidash.jpg" class="scale-with-grid">
+
+          <p><strong>The New Dashboard:</strong> Incorporates the changes from previous iterations, derived from user feedback. The new dashboard features:
+            <ol>
+              <li><strong>Suggested Lessons:</strong> An easy way for users to find relevant video lessons and follow a video curriculum.</li>
+              <li><strong>Progress Charts:</strong> A visual way for users to track their own progress and compare with other users.</li>
+              <li><strong>Improved Navigation:</strong> The new dashboard features links that allow users to easily navigate to the various sections of Magoosh GRE Prep.</li>
+            </ol>
+          </p>
+
+          <img src="images/newdash.png" class="scale-with-grid">
+        </div>
+
+        <div id="learned">
+
+          <h3>What I Learned</h3>
+          <ul class="square">
+            <li>Value of iterative design and team feedback</li>
+            <li>Effective ad strategy and design</li>
+            <li>Strategies for cost-effective and informational usability testing</li>
+            <li>Synthesizing user feedback and generating product insights</li>
+            <li>Basic HTML/CSS</li>
+          </ul>
+        </div>
       </div>
     </div>
 
     <div id="footer">
       <div class="container">
-        <p class="text-muted credit">Copyright 2013 Brittany Cheng</p>
+        <p class="text-muted credit">Copyright 2014 Brittany Cheng</p>
       </div>
     </div>
 

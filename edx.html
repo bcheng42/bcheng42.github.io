@@ -2,10 +2,19 @@
 <html>
   <head>
     <title>edX Internship</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap -->
+
+    <!-- Mobile Specific Metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- CSS
+    ================================================== -->
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="stylesheets/base.css">
+    <link rel="stylesheet" href="stylesheets/skeleton.css">
+    <link rel="stylesheet" href="stylesheets/layout.css">
     <link href="custom.css" rel="stylesheet">
+
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 
@@ -17,40 +26,46 @@
   </head>
   <body>
     <div class="container">
-      <!--img id="profile" src="http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,h_540,w_720/ysjkfvtyverckarjwqn3.png" width="200" align="left"-->
-      <a href="index.html"><h1>brittany cheng</h1></a>
-    </div>
+      <div class="sixteen columns" id="name">
+        <a href="index.html"><h1 class="remove-bottom" style="margin-top: 40px">brittany cheng</h1></a>
+        <hr/>
+      </div>
 
-    <div class="container">
-      <a href="http://edx.org"><img src="images/edx.png" width="200" align="right"></a>
-      <h2>User Interface Design Internship</h2>
-      <h3>February - August 2012 <br/> Cambridge, MA</h3>
-      <br/>
+      <div class="one-third column">
+        <a href="http://edx.org"><img src="images/edx.png" class="scale-with-grid comp" width="90%"></a>
+        <h4>User Interface Design Internship</h4>
+        <h5>February - August 2012 <br/> Cambridge, MA</h5>
+        <br/>
+      </div>
       
-      <h3>Overview</h3>
-      <p>I joined the Coursesharing team in February, which was originally a UC Berkeley project led by Professors Pieter Abbeel and Dawn Song, supervised by PhD student Arjun Singh. We joined the edX development team in July, becoming part of the edX online learning initiative. </p>
-      <p>In this role, I worked with a team of designers and developers to create the user experience, interface design, and functionality of an open source courseware platform for higher education classes online.</p>
+      <div class="two-thirds column">
+        <h3>Overview</h3>
+        <p>I joined the Coursesharing team in February, which was originally a UC Berkeley project led by Professors Pieter Abbeel and Dawn Song, supervised by PhD student Arjun Singh. We joined the edX development team in July, becoming part of the edX online learning initiative. </p>
+        <p>In this role, I worked with a team of designers and developers to create the user experience, interface design, and functionality of an open source courseware platform for higher education classes online.</p>
+        <br/>
 
-      <h3>Preparation</h3>
-      <p> To prepare for this role, I enrolled in a wide variety of online classes to get an understanding of the online learning user experience. I also took a class at UC Berkeley in the Information School titled "Technologies for Creativity and Learning." Towards the end of this experience, I enrolled in CS 188: Introduction to Artificial Intelligence, a class at UC Berkeley that is concurrently taught on campus at UC Berkeley and online through edX software. </p>
+        <h3>Preparation</h3>
+        <p> To prepare for this role, I enrolled in a wide variety of online classes to get an understanding of the online learning user experience. I also took a class at UC Berkeley in the Information School titled "Technologies for Creativity and Learning." Towards the end of this experience, I enrolled in CS 188: Introduction to Artificial Intelligence, a class at UC Berkeley that is concurrently taught on campus at UC Berkeley and online through edX software. </p>
+        <br/>
 
-      <h3>Projects</h3>
-        <ol>
-          <li>assignment and question views</li>
-          <li>student interaction and discussion</li>
-          <li>grading tool design</li>
-        </ol>
+        <h3>Projects</h3>
+          <ol>
+            <li>assignment and question views</li>
+            <li>student interaction and discussion</li>
+            <li>grading tool design</li>
+          </ol>
 
-      <h3>What I Learned</h3>
-      <ul>
-          <li>Front-end user interface design and development (intermediate HTML/CSS)</li>
-          <li>Flexibility as we switched teams and adjusted to new roles, development tools, and infrastructure</li>
-        </ul>
+        <h3>What I Learned</h3>
+        <ul class="square">
+            <li>Front-end user interface design and development (intermediate HTML/CSS)</li>
+            <li>Flexibility as we switched teams and adjusted to new roles, development tools, and infrastructure</li>
+          </ul>
+      </div>
     </div>
 
     <div id="footer">
       <div class="container">
-        <p class="text-muted credit">Copyright 2013 Brittany Cheng</p>
+        <p class="text-muted credit">Copyright 2014 Brittany Cheng</p>
       </div>
     </div>
 

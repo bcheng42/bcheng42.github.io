@@ -2,10 +2,19 @@
 <html>
   <head>
     <title>UConnect</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap -->
+
+    <!-- Mobile Specific Metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- CSS
+    ================================================== -->
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="stylesheets/base.css">
+    <link rel="stylesheet" href="stylesheets/skeleton.css">
+    <link rel="stylesheet" href="stylesheets/layout.css">
     <link href="custom.css" rel="stylesheet">
+
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 
@@ -17,47 +26,56 @@
   </head>
   <body>
     <div class="container">
-      <!--img id="profile" src="http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,h_540,w_720/ysjkfvtyverckarjwqn3.png" width="200" align="left"-->
-      <a href="index.html"><h1>brittany cheng</h1></a>
-    </div>
+      <div class="sixteen columns" id="name">
+        <a href="index.html"><h1 class="remove-bottom" style="margin-top: 40px">brittany cheng</h1></a>
+        <hr/>
+      </div>
 
-    <div class="container">
-      <img src="images/uc.png" width="200" align="right">
-      <h2> UConnect Mobile App Design</h2>
-      <h3> March 17, 2013 <br/> Winner, College Ready Hackathon, Berkeley, CA</h3>
-      <br/>
-      
-      <h3>Overview</h3>
-      <p>Team Edventure: Brittany Cheng, Samir Makhani, Aatash Parikh, Carl Shan, and Marissa Teitelman. <br/> During a one-day hackathon, we designed and pitched the user interface and experience for UConnect, a mobile peer advising and mentorship app. </p>
+      <div class="one-third column">
+        <img src="images/uc.png" class="scale-with-grid comp comp" >
+        <h4> UConnect Mobile App Design</h4>
+        <br/>
+        <h5><strong> Hackathon Winner </strong></h5>
+        <h5> March 17, 2013 <br/> College Ready Hackathon <br/> Berkeley, CA</h5>
+        <br/>
+      </div>
 
-      <h3>Hackathon Goals</h3>
+      <div class="two-thirds column">  
+        <h3>Overview</h3>
+        <ul class="square">
+          <li><strong>Team Edventure:</strong> Brittany Cheng, Samir Makhani, Aatash Parikh, Carl Shan, and Marissa Teitelman. </li> 
+          <li>During a one-day hackathon, we designed and pitched the user interface and experience for UConnect, a mobile peer advising and mentorship app. </li>
+        </ul>
 
-      <ul>
-        <li>Target one or more student groups: K-12 students and their families; 9-12 high school students planning to apply to the UC system; and Community College transfer students planning to apply for transfer to UC</li>
-        <li>Prepare students to apply directly from high school or by transfer from community college</li> 
-        <li>Focus on mobile apps and games that run on smart phones (based on html5) or text alert capability for feature phones</li>
-        <li>Include outcome metrics</li>
-      </ul>
+        <h3>Hackathon Goals</h3>
 
-      <h3>Process</h3>
-      <ul>
-        <li>Interacted with mentors and students present at the hackathon to understand the problems we wanted to solve</li>
-        <li>From quick user research and our own experiences with mentors in high school, decided to create a mentoring application to connect high school students with UC students who could provide basic advice and mentorship </li>
-        <li>Sketched out user flow of mobile app from both mentor and mentee perspective</li> 
-        <li>Used Adobe Photoshop and Illustrator, as well as the <a href="http://designmodo.github.io/Flat-UI/">flat design toolkit</a>, to quickly mock up various screens</li>
-        <li>Used <a href="http://www.invisionapp.com/">InVision App</a> to link screens together into presentable and testable prototype </li>
-      </ul>
+        <ul class="square">
+          <li>Target one or more student groups: K-12 students and their families; 9-12 high school students planning to apply to the UC system; and Community College transfer students planning to apply for transfer to UC</li>
+          <li>Prepare students to apply directly from high school or by transfer from community college</li> 
+          <li>Focus on mobile apps and games that run on smart phones (based on html5) or text alert capability for feature phones</li>
+          <li>Include outcome metrics</li>
+        </ul>
 
-      <h3>Final Designs</h3>
-      <h4><a href="docs/ucpitch.pdf"> UConnect Final Pitch Deck </a></h4>
-      <h4><a href="http://invis.io/TAD6GO9F"> High School Student Flow </a></h4>
-      <h4><a href="http://invis.io/4YD6H0CE"> UC Mentor Flow </a></h4>
+        <h3>Process</h3>
+        <ul class="square">
+          <li>Interacted with mentors and students present at the hackathon to understand the problems we wanted to solve</li>
+          <li>From quick user research and our own experiences with mentors in high school, decided to create a mentoring application to connect high school students with UC students who could provide basic advice and mentorship </li>
+          <li>Sketched out user flow of mobile app from both mentor and mentee perspective</li> 
+          <li>Used Adobe Photoshop and Illustrator, as well as the <a href="http://designmodo.github.io/Flat-UI/">flat design toolkit</a>, to quickly mock up various screens</li>
+          <li>Used <a href="http://www.invisionapp.com/">InVision App</a> to link screens together into presentable and testable prototype </li>
+        </ul>
+
+        <h3>Final Designs</h3>
+        <h4><a href="docs/ucpitch.pdf"> UConnect Final Pitch Deck </a></h4>
+        <h4><a href="http://invis.io/TAD6GO9F"> High School Student Flow </a></h4>
+        <h4><a href="http://invis.io/4YD6H0CE"> UC Mentor Flow </a></h4>
+      </div>
 
     </div>
 
     <div id="footer">
       <div class="container">
-        <p class="text-muted credit">Copyright 2013 Brittany Cheng</p>
+        <p class="text-muted credit">Copyright 2014 Brittany Cheng</p>
       </div>
     </div>
 
