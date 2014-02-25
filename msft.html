@@ -2,10 +2,20 @@
 <html>
   <head>
     <title>Microsoft PM Internship</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap -->
+
+      <!-- Mobile Specific Metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- CSS
+    ================================================== -->
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="custom.css" rel="stylesheet"
+    <link rel="stylesheet" href="stylesheets/base.css">
+    <link rel="stylesheet" href="stylesheets/skeleton.css">
+    <link rel="stylesheet" href="stylesheets/layout.css">
     <link href="custom.css" rel="stylesheet">
+
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 
@@ -17,49 +27,53 @@
   </head>
   <body>
     <div class="container">
-      <!--img id="profile" src="http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,h_540,w_720/ysjkfvtyverckarjwqn3.png" width="200" align="left"-->
-      <a href="index.html"><h1>brittany cheng</h1></a>
-    </div>
+      <div class="sixteen columns">
+        <a href="index.html"><h1 class="remove-bottom" style="margin-top: 40px">brittany cheng</h1></a>
+        <hr/>
+      </div>
 
-    <div class="container">
-      <a href="http://microsoft.com"><img src="images/msft.png" width="200" align="right"></a>
-      <h2>Program Manager Internship</h2>
-      <h3>June - August 2013 <br/> Redmond, WA</h3>
-      <br/>
-      
-      <h3>Overview</h3>
-      <p> I spent a twelve-week summer internship at Microsoft as a Program Manager Intern on the Apps for Creative Expression team, working on Movie Moments, a Windows 8.1 Modern App. </p>
-      <ul>
-        <li>Collaborated with designers and program managers to design and create functional specs for new styles (themes for users to customize and caption their videos)</li>
-        <li>Worked with development and test teams to implement and test styles over the course of my internship, planning implementation in two-week sprints</li>
-        <li>Collaborated across teams to design and prototype a new mobile application: Created mockups using PowerPoint Storyboard and solicited feedback across mobile teams, then used XAML/C# to implement a front-end prototype to demonstrate the user experience</li>
-      </ul>
+      <div class="one-third column">
+        <a href="http://microsoft.com"><img src="images/msft.png" class="scale-with-grid comp" width="95%"></a>
+        <h4>Program Manager Internship</h4>
+        <h5>June - August 2013 <br/> Redmond, WA</h5>
+        <br/>
+      </div>
 
-      <h3>Preparation</h3>
-      <p> To prepare for this role, I read the following books and articles: </p>
-      <ul>
-        <li><a href="http://amzn.com/0465067107"> The Design of Everyday Things</a> by Don Norman </li>
-        <li><a href="http://amzn.com/0201835959"> The Mythical Man-Month</a> by Frederick Brooks </li>
-        <li><a href="http://amzn.com/0881791326"> The Elements of Typographic Style</a> by Robert Bringhurst</li>
-        <li><a href="http://blogs.msdn.com/b/techtalk/archive/2005/12/16/504872.aspx"> PM at Microsoft</a> by Steven Sinofsky </li>
-        <li><a href="http://microsoftjobsblog.com/zen-of-pm/"> Zen of PM</a></li>
-      </ul>
-
-      <h3>Projects</h3>
-        <ol>
-          <li>Design, spec, and implement two new sets of styles for Movie Moments</li>
-          <li>Design and prototype the front-end user experience for a new mobile application</li>
-        </ol>
-
-      <h3>What I Learned</h3>
+      <div class="two-thirds column">
+        <h3>Overview</h3>
+        <p> I spent a twelve-week summer internship at Microsoft as a Program Manager Intern on the Apps for Creative Expression team, working on Movie Moments, a Windows 8.1 Modern App. </p>
         <ul>
-          <li>The role of the PM as product owner and bridge between designers, developers, and testers</li>
-          <li>How to create a functional specification for a feature and communicate the spec with my team</li>
-          <li>The considerations involved in making decisions within a large organization</li>
-          <li>Importance of communication and proactiveness within and across teams</li>
-          <li>Value of front-end prototyping in interaction design</li>
-          <li>Basic XAML/C# for prototyping Windows Phone applications</li>
+          <li>Collaborated with designers and program managers to design and create functional specs for new styles (themes for users to customize and caption their videos)</li>
+          <li>Worked with development and test teams to implement and test styles over the course of my internship, planning implementation in two-week sprints</li>
+          <li>Collaborated across teams to design and prototype a new mobile application: Created mockups using PowerPoint Storyboard and solicited feedback across mobile teams, then used XAML/C# to implement a front-end prototype to demonstrate the user experience</li>
         </ul>
+
+        <h3>Preparation</h3>
+        <p> To prepare for this role, I read the following books and articles: </p>
+        <ul>
+          <li><a href="http://amzn.com/0465067107"> The Design of Everyday Things</a> by Don Norman </li>
+          <li><a href="http://amzn.com/0201835959"> The Mythical Man-Month</a> by Frederick Brooks </li>
+          <li><a href="http://amzn.com/0881791326"> The Elements of Typographic Style</a> by Robert Bringhurst</li>
+          <li><a href="http://blogs.msdn.com/b/techtalk/archive/2005/12/16/504872.aspx"> PM at Microsoft</a> by Steven Sinofsky </li>
+          <li><a href="http://microsoftjobsblog.com/zen-of-pm/"> Zen of PM</a></li>
+        </ul>
+
+        <h3>Projects</h3>
+          <ol>
+            <li>Design, spec, and implement two new sets of styles for Movie Moments</li>
+            <li>Design and prototype the front-end user experience for a new mobile application</li>
+          </ol>
+
+        <h3>What I Learned</h3>
+          <ul>
+            <li>The role of the PM as product owner and bridge between designers, developers, and testers</li>
+            <li>How to create a functional specification for a feature and communicate the spec with my team</li>
+            <li>The considerations involved in making decisions within a large organization</li>
+            <li>Importance of communication and proactiveness within and across teams</li>
+            <li>Value of front-end prototyping in interaction design</li>
+            <li>Basic XAML/C# for prototyping Windows Phone applications</li>
+          </ul>
+      </div>
     </div>
 
     <div id="footer">
