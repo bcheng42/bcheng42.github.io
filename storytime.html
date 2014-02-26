@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>StoryTime</title>
+
+    <!-- Mobile Specific Metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="stylesheets/base.css">
+    <link rel="stylesheet" href="stylesheets/skeleton.css">
+    <link rel="stylesheet" href="stylesheets/layout.css">
+    <link href="custom.css" rel="stylesheet">
+
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+      <div class="sixteen columns" id="name">
+        <a href="index.html"><h1 class="remove-bottom" style="margin-top: 40px">brittany cheng</h1></a>
+        <hr/>
+      </div>
+
+      <div class="one-third column">
+        <img src="images/storytime.png" class="scale-with-grid comp" style="margin-left: -1px" >
+        <h4> StoryTime App Design</h4>
+        <br/>
+        <h5>Team Project, Fall 2013 <br/> CS 160: UI Design and Development <br/> Berkeley, CA</h5>
+        <br/>
+        <h5><a href="docs/process_doc.pdf"> Final Process Document </a></h5>
+      </div>
+
+      <div class="two-thirds column">  
+        <h3>Overview</h3>
+        <ul class="square">
+          <li><strong>Team:</strong> Brittany Cheng, Kush Agrawal, Jody Sheu, Christina Wong. </li> 
+          <li>During a semester-long course on user interface design, we researched, brainstormed, designed, and prototyped a mobile application for connecting families through storytelling. </li>
+        </ul>
+
+        <h3>Process</h3>
+        <ul class="square">
+          <li>Wanted to create an app for families, so we selected target users of older grandparents and younger grandchildren.</li>
+          <li>Conducted contextual inquiry and task analysis with target users to understand how families connect with each other.</li>
+          <li>Created Balsamiq mockups and tested with users for initial feedback.</li>
+          <li>Updated designs iteratively based on feedback from users and instructors.</li>
+          <li>Final designs created in Photoshop and Illustrator, then prototyped in Android.</li>
+        </ul>
+
+        <div id="uc">
+          <h3>Original Mockups</h3>
+          <p>Created using <a href="http://balsamiq.com" target="_new">Balsamiq mockups tool</a></p>
+          <br/>
+
+          <p><strong>General Navigation:</strong> Navigation of app is between three main views: family, feed, and profile. The feed view consists of a "newsfeed" of stories from various family members. Users can click into a specific story to view more details. The two buttons, "Request a Story" and "Create a Story," are the main forms of interaction between users.</p>
+          <img src="images/old/0_1 View Feed.png" class="scale-with-grid five columns alpha" width="50%">
+          <img src="images/old/0_2 Story Free Speech.png" class="scale-with-grid five columns omega" width="50%">
+          <br clear="all"/>
+          <br/>
+
+          <p><strong>Request Story:</strong> Users can "request" stories from other users by filling out a simple form.</p>
+          <img src="images/old/1_2 Request Story 2.png" class="scale-with-grid five columns alpha" width="50%">
+          <img src="images/old/1_4 Request Story 4.png" class="scale-with-grid five columns omega" width="50%">
+          <br clear="all"/>
+          <br/>
+
+          <p><strong>Create Story:</strong> Upon receiving a story request, a user can create a story through a multi-step process. We later simplified this process after receiving user feedback.</p>
+          <img src="images/old/2_1 Story Request.png" class="scale-with-grid five columns alpha" width="50%">
+          <img src="images/old/2_2 Create Background.png" class="scale-with-grid five columns omega" width="50%">
+
+          <img src="images/old/2_3 Create Photo.png" class="scale-with-grid five columns alpha" width="50%">
+          <img src="images/old/2_3b Create Photo 2.png" class="scale-with-grid five columns omega" width="50%">
+
+          <img src="images/old/2_4 Create Edit Photo.png" class="scale-with-grid five columns alpha" width="50%">
+          <img src="images/old/2_5 Preview.png" class="scale-with-grid five columns omega" width="50%">          
+
+          <br clear="all"/>
+        </div>
+
+        <div id="uc">
+          <h3>Final Designs</h3>
+          <p>Created using Photoshop, Illustrator, and Flinto. Prototyped in Android.</p>
+          <br/>
+
+          <p><strong>General Navigation:</strong> The navigation of app remained the same but we simplified the feed as a result of feedback from users who could not understand the unnecessary extra elements and iconography. We also simplified individual stories into a recording over selected photos, allowing the "create a story" process (see below) to be simpler.</p>
+          <img src="images/new/01a-feed.png" class="scale-with-grid five columns alpha" width="50%">
+          <img src="images/new/01c-story-view.png" class="scale-with-grid five columns omega" width="50%">
+          <br clear="all"/>
+          <br/>
+
+          <p><strong>Request Story:</strong> The design for the request action remained largely the same throughout several iterations, though we did increase button and text size as a result of feedback from senior users.</p>
+          <img src="images/new/02a-request-story.png" class="scale-with-grid five columns alpha" width="50%">
+          <img src="images/new/02b -request-story2.png" class="scale-with-grid five columns omega" width="50%">
+          <br clear="all"/>
+          <br/>
+
+          <p><strong>Create Story:</strong> We simplified the create story process by guiding users through a 3-step process: choose a few photos for story, add details of story, record story (minimizes need for typing out long stories). This task was implemented in Android.</p>
+          <p>Choose a few photos for your story.</p>
+          <img src="images/new/choose.png" class="scale-with-grid five columns alpha" width="50%">
+          <img src="images/new/choose3.png" class="scale-with-grid five columns omega" width="50%">
+          <br clear="all"/>
+          <br/>
+
+          <p>(Left): Add some details about your story. (Right and Below): Begin recording your story. Simply press the record button, begin recording your story, and click on the next picture to move on to the next picture.</p>
+          <img src="images/new/details.png" class="scale-with-grid five columns alpha" width="50%">
+          <img src="images/new/record.png" class="scale-with-grid five columns omega" width="50%">
+          <br clear="all"/>
+          <br/>
+
+          <img src="images/new/record2.png" class="scale-with-grid five columns alpha" width="50%">
+          <img src="images/new/record3.png" class="scale-with-grid five columns omega" width="50%">
+          <br clear="all"/>
+          <br/>
+
+          <p> When you're finished, preview and publish! </p>
+          <img src="images/new/preview.png" class="scale-with-grid five columns alpha" width="50%">
+          <img src="images/new/publish.png" class="scale-with-grid five columns omega" width="50%">          
+
+          <br clear="all"/>
+        </div>
+
+        <h3>Further Links</h3>
+        <h4><a href="docs/process_doc.pdf"> Final Process Document </a></h4>
+      </div>
+
+    </div>
+
+    <div id="footer">
+      <div class="container">
+        <p class="text-muted credit">Copyright 2014 Brittany Cheng</p>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="//code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
