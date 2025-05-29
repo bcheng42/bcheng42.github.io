@@ -228,7 +228,7 @@ const Index = () => {
               className="flex items-center space-x-2 bg-white text-blue-600 px-6 py-3 rounded-lg font-medium hover:bg-gray-100 transition-colors"
             >
               <Mail className="h-5 w-5" />
-              <span>bcheng42@gmail.com</span>
+              <span>hello[at]brittanycheng[dot]com</span>
             </a>
             <a 
               href="https://www.linkedin.com/in/bcheng42/" 
