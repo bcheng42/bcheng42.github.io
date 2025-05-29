@@ -1,3 +1,4 @@
+
 import React from 'react';
 
 const Index = () => {
@@ -94,7 +95,7 @@ const Index = () => {
                       </a>
                       {' '}🏃, and{' '}
                       <a 
-                        href="http://www.yelp.com/biz/dogpatch-boulders-san-francisco" 
+                        href="https://www.yelp.com/biz/dogpatch-boulders-san-francisco" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="text-blue-600 hover:text-blue-800 transition-colors"
@@ -109,7 +110,7 @@ const Index = () => {
                     <p className="text-base mb-3">
                       <strong>My alma mater:</strong> I graduated from{' '}
                       <a 
-                        href="http://engineering.berkeley.edu/" 
+                        href="https://engineering.berkeley.edu/" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="text-blue-600 hover:text-blue-800 transition-colors"
@@ -124,7 +125,7 @@ const Index = () => {
                     <p className="text-base">
                       <strong>My resume:</strong> I list my professional activities on{' '}
                       <a 
-                        href="http://www.linkedin.com/in/bcheng42" 
+                        href="https://www.linkedin.com/in/bcheng42" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="text-blue-600 hover:text-blue-800 transition-colors"
