@@ -163,7 +163,7 @@ const Index = () => {
 
         {/* Footer */}
         <footer className="text-center text-gray-500 text-sm border-t border-gray-200 pt-8">
-          <p>© 2024 Brittany Cheng Betten. Creating joyful learning experiences at Seesaw.</p>
+          <p>© 2025 Brittany Cheng Betten.</p>
         </footer>
       </div>
     </div>
