@@ -56,7 +56,7 @@ const Index = () => {
                         >
                           Seesaw
                         </a>
-                        , I was responsible for messaging & family engagement as well as schools & admins products.
+                        , I was responsible for messaging & family engagement as well as schools & admins products.🏫
                       </li>
                       <li>
                         • Before that, I worked on the core search experience (#searchUX) and international product (#i18n) at{' '}
@@ -117,7 +117,7 @@ const Index = () => {
                       >
                         UC Berkeley
                       </a>
-                      {' '}with a degree in Electrical Engineering & Computer Science and a certificate in Human-Centered Design
+                      {' '}with a degree in Electrical Engineering & Computer Science and a certificate in Human-Centered Design.
                     </p>
                   </div>
 
@@ -133,7 +133,7 @@ const Index = () => {
                         LinkedIn
                       </a>
                     </p>
-                  </div>
+                  </div>                  
                 </div>
               </div>
             </div>
@@ -142,7 +142,7 @@ const Index = () => {
 
         {/* Footer */}
         <footer className="text-center text-gray-500 text-xs border-t border-gray-200 pt-8 mt-16">
-          <p>© 2025 Brittany Cheng Betten</p>
+          <p>© 2025 Brittany Cheng Betten | ✉️ hello[at]brittanycheng[dot]com</p>
         </footer>
       </div>
     </div>
