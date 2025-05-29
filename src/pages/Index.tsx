@@ -42,7 +42,7 @@ const Index = () => {
                       >
                         Seesaw Learning
                       </a>
-                      {' '}responsible for Teacher & Family Engagement, Learning Insights & Reporting, and Setup & Integrations.
+                      {' '}responsible for Teacher & Family Engagement, Learning Insights & Reporting, and Setup & Integrations
                     </p>
                     
                     <ul className="ml-6 space-y-2 text-gray-700 text-sm">
@@ -56,7 +56,7 @@ const Index = () => {
                         >
                           Seesaw
                         </a>{' '}🍎
-                        , I was responsible for messaging & family engagement as well as schools & admins products.
+                        , I was responsible for messaging & family engagement as well as schools & admins products
                       </li>
                       <li>
                         • Before that, I worked on the core search experience (#searchUX) and international product (#i18n) at{' '}
@@ -117,7 +117,7 @@ const Index = () => {
                       >
                         UC Berkeley
                       </a>
-                      {' '}🐻 with a degree in Electrical Engineering & Computer Science and a certificate in Human-Centered Design.
+                      {' '}🐻 with a degree in Electrical Engineering & Computer Science and a certificate in Human-Centered Design
                     </p>
                   </div>
 
