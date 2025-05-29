@@ -1,7 +1,6 @@
 
 import React from 'react';
 import { ExternalLink } from 'lucide-react';
-import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
 
 const Index = () => {
   return (
@@ -12,10 +11,13 @@ const Index = () => {
         <header className="mb-12">
           <div className="flex flex-col md:flex-row items-start gap-8">
             <div className="flex-shrink-0">
-              <Avatar className="h-32 w-32 md:h-40 md:w-40">
-                <AvatarImage src="/lovable-uploads/9c3d84a3-a916-46f2-b339-905004a35b2a.png" alt="Brittany Cheng Betten" className="object-cover" />
-                <AvatarFallback className="text-2xl font-semibold">BCB</AvatarFallback>
-              </Avatar>
+              <div className="w-32 h-40 md:w-40 md:h-52 overflow-hidden rounded-lg shadow-lg">
+                <img 
+                  src="/lovable-uploads/9c3d84a3-a916-46f2-b339-905004a35b2a.png" 
+                  alt="Brittany Cheng Betten" 
+                  className="w-full h-full object-cover"
+                />
+              </div>
             </div>
             
             <div className="flex-1">
