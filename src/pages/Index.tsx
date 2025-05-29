@@ -142,7 +142,8 @@ const Index = () => {
 
         {/* Footer */}
         <footer className="text-center text-gray-500 text-xs border-t border-gray-200 pt-8 mt-16">
-          <p>© 2025 Brittany Cheng Betten | ✉️ hello[at]brittanycheng[dot]com</p>
+          <p>© 2025 Brittany Cheng Betten </p>
+          <p>✉️ hello[at]brittanycheng[dot]com</p>
         </footer>
       </div>
     </div>
