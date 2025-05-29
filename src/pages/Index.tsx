@@ -7,32 +7,32 @@ import { Card, CardContent } from '@/components/ui/card';
 const Index = () => {
   const experiences = [
     {
-      company: "Apple",
-      role: "Senior UX Designer",
-      period: "2022 - Present",
-      description: "Leading design initiatives for consumer-facing products, focusing on user experience optimization and design system development."
+      company: "Brisk Teaching",
+      role: "Head of Product",
+      period: "2025 - Present",
+      description: "Leading product strategy and development for innovative educational technology solutions that empower teachers and enhance student learning experiences."
     },
     {
-      company: "Microsoft",
-      role: "UX Designer",
-      period: "2020 - 2022",
-      description: "Designed user interfaces for enterprise software solutions, conducted user research, and collaborated with cross-functional teams."
+      company: "Educational Technology Sector",
+      role: "Senior Product Manager",
+      period: "2020 - 2024",
+      description: "Drove product strategy and execution for EdTech platforms, focusing on user-centered design and data-driven product decisions to improve educational outcomes."
     },
     {
-      company: "Previous Experience",
-      role: "UI/UX Designer",
+      company: "Product Leadership",
+      role: "Product Manager",
       period: "2018 - 2020",
-      description: "Developed digital experiences for various clients, specializing in responsive web design and mobile applications."
+      description: "Built and scaled educational technology products, working closely with educators and students to develop solutions that address real classroom needs."
     }
   ];
 
   const skills = [
-    { name: "UI/UX Design", level: 95 },
-    { name: "Figma", level: 98 },
-    { name: "Adobe Creative Suite", level: 90 },
-    { name: "Prototyping", level: 92 },
-    { name: "User Research", level: 88 },
-    { name: "Design Systems", level: 94 }
+    { name: "Product Strategy & Roadmapping", level: 95 },
+    { name: "User Research & Analytics", level: 92 },
+    { name: "Cross-functional Team Leadership", level: 94 },
+    { name: "Educational Technology", level: 98 },
+    { name: "Agile/Scrum Methodologies", level: 90 },
+    { name: "Data-Driven Decision Making", level: 88 }
   ];
 
   const scrollToSection = (sectionId: string) => {
@@ -68,7 +68,7 @@ const Index = () => {
                   <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent"> Brittany</span>
                 </h1>
                 <p className="text-xl text-gray-600 leading-relaxed">
-                  UX/UI Designer crafting meaningful digital experiences at the intersection of user needs and business goals.
+                  Product Leader passionate about educational technology and building products that transform teaching and learning experiences.
                 </p>
               </div>
               <div className="flex flex-col sm:flex-row gap-4">
@@ -104,18 +104,20 @@ const Index = () => {
           <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">About Me</h2>
           <div className="space-y-6 text-lg text-gray-600 leading-relaxed">
             <p>
-              I'm a passionate UX/UI designer with a strong background in creating user-centered digital experiences. 
-              Currently working at Apple, I focus on designing intuitive interfaces that solve real user problems 
-              while meeting business objectives.
+              I'm a passionate Product Leader with extensive experience in educational technology, dedicated to creating 
+              products that make a meaningful impact on teaching and learning. As the incoming Head of Product at Brisk Teaching, 
+              I focus on building innovative solutions that empower educators and enhance student outcomes.
             </p>
             <p>
-              My design philosophy centers around empathy, iteration, and collaboration. I believe that great design 
-              happens when we truly understand our users and work closely with cross-functional teams to bring 
-              innovative solutions to life.
+              My approach to product leadership centers around user-centered design, data-driven decision making, and 
+              collaborative cross-functional team leadership. I believe that the best educational technology products 
+              are born from deep understanding of educator and student needs, combined with strategic product vision 
+              and execution excellence.
             </p>
             <p>
-              When I'm not designing, you can find me exploring the latest design trends, mentoring upcoming designers, 
-              or enjoying the beautiful outdoors of the San Francisco Bay Area.
+              When I'm not building products, you can find me staying current with the latest EdTech trends, mentoring 
+              emerging product managers, or exploring the beautiful outdoors of the San Francisco Bay Area. I'm always 
+              excited to connect with fellow educators and product enthusiasts.
             </p>
           </div>
         </div>
@@ -172,7 +174,7 @@ const Index = () => {
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-8">Let's Work Together</h2>
           <p className="text-xl mb-8 opacity-90">
-            I'm always interested in new opportunities and collaborations.
+            I'm always interested in new opportunities and collaborations in educational technology.
           </p>
           <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-6">
             <a 
@@ -198,7 +200,7 @@ const Index = () => {
 
       {/* Footer */}
       <footer className="py-8 px-6 bg-gray-900 text-white text-center">
-        <p className="opacity-80">© 2024 Brittany Cheng. Designed with passion and precision.</p>
+        <p className="opacity-80">© 2024 Brittany Cheng. Building the future of educational technology.</p>
       </footer>
     </div>
   );
