@@ -108,6 +108,30 @@ const Index = () => {
 
                   <div>
                     <p className="text-base mb-3">
+                      <strong>My favorites:</strong> I am always down for{' '}
+                      <a 
+                        href="https://www.instagram.com/blooms_end/" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-blue-600 hover:text-blue-800 transition-colors"
+                      >
+                        pastries
+                      </a>
+                      {' '}🥐,{' '}
+                      <a 
+                        href="https://www.instagram.com/ashateahouse/?hl=en"
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-blue-600 hover:text-blue-800 transition-colors"
+                      >
+                        and/or tea
+                      </a>
+                      {' '}🍵
+                    </p>
+                  </div>
+
+                  <div>
+                    <p className="text-base mb-3">
                       <strong>My alma mater:</strong> I graduated from{' '}
                       <a 
                         href="https://engineering.berkeley.edu/" 
