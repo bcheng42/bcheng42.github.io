@@ -11,7 +11,7 @@ const Index = () => {
           {/* Hello section taking full width */}
           <div className="mb-8">
             <p className="text-xl mb-6">
-              👋 <strong>Hello! I'm Brittany Cheng Betten.</strong> Here is my (partially) AI-generated website with links to help you thoroughly stalk my web presence:
+              👋 <strong>Hello! I'm Brittany Cheng Betten.</strong> Here is my (partially) AI-generated website with links to help you thoroughly stalk my web presence...
             </p>
           </div>
 
