@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { MapPin, Mail, Linkedin, ExternalLink, Download, Users, TrendingUp, Target, Award } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -222,19 +221,12 @@ const Index = () => {
           <p className="text-xl mb-8 opacity-90">
             Always interested in new opportunities and collaborations in educational technology.
           </p>
-          <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-6">
-            <a 
-              href="mailto:bcheng42@gmail.com" 
-              className="flex items-center space-x-2 bg-white text-blue-600 px-6 py-3 rounded-lg font-medium hover:bg-gray-100 transition-colors"
-            >
-              <Mail className="h-5 w-5" />
-              <span>hello[at]brittanycheng[dot]com</span>
-            </a>
+          <div className="flex justify-center">
             <a 
               href="https://www.linkedin.com/in/bcheng42/" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="flex items-center space-x-2 border-2 border-white px-6 py-3 rounded-lg font-medium hover:bg-white hover:text-blue-600 transition-colors"
+              className="flex items-center space-x-2 bg-white text-blue-600 px-6 py-3 rounded-lg font-medium hover:bg-gray-100 transition-colors"
             >
               <Linkedin className="h-5 w-5" />
               <span>LinkedIn</span>
