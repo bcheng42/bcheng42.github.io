@@ -24,7 +24,7 @@ const Index = () => {
               {/* Main Content */}
               <div className="prose prose-lg max-w-none">
                 <p className="text-xl mb-6">
-                  👋 <strong>Hello! I'm Brittany Cheng Betten.</strong> Here is my (mostly) AI-generated website with links to help you thoroughly stalk my web presence:
+                  👋 <strong>Hello! I'm Brittany Cheng Betten.</strong> Here is my (partially) AI-generated website with links to help you thoroughly stalk my web presence:
                 </p>
 
                 <div className="space-y-6">
@@ -77,7 +77,7 @@ const Index = () => {
                     <p className="text-lg mb-3">
                       <strong>✨ My evenings and weekends:</strong> I{' '}
                       <a 
-                        href="http://www.ycore.org/" 
+                        href="https://opendoorlegal.org/" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="text-blue-600 hover:text-blue-800 transition-colors inline-flex items-center gap-1"
