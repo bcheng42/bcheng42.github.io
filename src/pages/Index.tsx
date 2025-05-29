@@ -1,38 +1,65 @@
 
 import React from 'react';
-import { MapPin, Mail, Linkedin, ExternalLink, Download } from 'lucide-react';
+import { MapPin, Mail, Linkedin, ExternalLink, Download, Users, TrendingUp, Target, Award } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 
 const Index = () => {
   const experiences = [
     {
-      company: "Brisk Teaching",
-      role: "Head of Product",
-      period: "2025 - Present",
-      description: "Leading product strategy and development for innovative educational technology solutions that empower teachers and enhance student learning experiences."
+      company: "Seesaw Learning",
+      role: "Senior Manager, Product Management",
+      period: "Sep 2023 - Present",
+      description: "Leading Product Teams for Core Experience, Instruction & Learning Insights, and Setup & Integrations.",
+      highlights: [
+        "Led launch of new packaging tier with 50%+ high-value business expansion",
+        "Managing team responsible for core platform experience"
+      ]
     },
     {
-      company: "Educational Technology Sector",
+      company: "Seesaw Learning",
       role: "Senior Product Manager",
-      period: "2020 - 2024",
-      description: "Drove product strategy and execution for EdTech platforms, focusing on user-centered design and data-driven product decisions to improve educational outcomes."
+      period: "Oct 2018 - Sep 2023",
+      description: "Drove key product initiatives across messaging, family engagement, and admin experiences.",
+      highlights: [
+        "20+ percentage point increase in teacher usage with redesigned communication product",
+        "Supported 5-7x customer base growth over 1.5 years"
+      ]
     },
     {
-      company: "Product Leadership",
-      role: "Product Manager",
-      period: "2018 - 2020",
-      description: "Built and scaled educational technology products, working closely with educators and students to develop solutions that address real classroom needs."
+      company: "Yelp",
+      role: "Product Manager, Search Experience",
+      period: "Dec 2016 - Sep 2018",
+      description: "Owned core search experience across all platforms, driving user engagement and retention.",
+      highlights: [
+        "Led UX overhaul increasing app usage and engagement",
+        "Shipped core improvements to navigation and search"
+      ]
+    },
+    {
+      company: "Yelp",
+      role: "Product Manager, International",
+      period: "Aug 2014 - Nov 2016",
+      description: "Launched and grew Yelp across 18 languages and 32 international markets.",
+      highlights: [
+        "Led new market launches in Taiwan, Malaysia, Philippines",
+        "Built localization infrastructure for global expansion"
+      ]
     }
   ];
 
   const skills = [
-    { name: "Product Strategy & Roadmapping", level: 95 },
-    { name: "User Research & Analytics", level: 92 },
-    { name: "Cross-functional Team Leadership", level: 94 },
-    { name: "Educational Technology", level: 98 },
-    { name: "Agile/Scrum Methodologies", level: 90 },
-    { name: "Data-Driven Decision Making", level: 88 }
+    { name: "Product Strategy & Leadership", level: 95, icon: Target },
+    { name: "Cross-functional Team Management", level: 92, icon: Users },
+    { name: "Growth & Analytics", level: 90, icon: TrendingUp },
+    { name: "Educational Technology", level: 98, icon: Award }
+  ];
+
+  const achievements = [
+    { metric: "6+ years", label: "at Seesaw Learning" },
+    { metric: "50%+", label: "business expansion" },
+    { metric: "20+", label: "percentage point usage increase" },
+    { metric: "5-7x", label: "customer growth supported" }
   ];
 
   const scrollToSection = (sectionId: string) => {
@@ -61,16 +88,27 @@ const Index = () => {
       <section className="pt-24 pb-16 px-6">
         <div className="max-w-6xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="space-y-6">
+            <div className="space-y-8">
               <div className="space-y-4">
                 <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-                  Hi, I'm 
-                  <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent"> Brittany</span>
+                  Product Leader at 
+                  <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent"> Seesaw</span>
                 </h1>
                 <p className="text-xl text-gray-600 leading-relaxed">
-                  Product Leader passionate about educational technology and building products that transform teaching and learning experiences.
+                  Creating joyful, connected, and inclusive learning experiences for students, educators, and families.
                 </p>
               </div>
+              
+              {/* Achievement Stats */}
+              <div className="grid grid-cols-2 gap-4">
+                {achievements.map((achievement, index) => (
+                  <div key={index} className="text-center p-4 bg-white rounded-lg shadow-sm">
+                    <div className="text-2xl font-bold text-blue-600">{achievement.metric}</div>
+                    <div className="text-sm text-gray-600">{achievement.label}</div>
+                  </div>
+                ))}
+              </div>
+
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
                   <Download className="mr-2 h-4 w-4" />
@@ -80,6 +118,7 @@ const Index = () => {
                   Get In Touch
                 </Button>
               </div>
+              
               <div className="flex items-center space-x-4 text-gray-600">
                 <div className="flex items-center">
                   <MapPin className="h-4 w-4 mr-1" />
@@ -87,6 +126,7 @@ const Index = () => {
                 </div>
               </div>
             </div>
+            
             <div className="relative">
               <div className="w-80 h-80 mx-auto bg-gradient-to-br from-blue-400 to-purple-500 rounded-full flex items-center justify-center text-white text-6xl font-bold shadow-2xl">
                 BC
@@ -100,24 +140,18 @@ const Index = () => {
 
       {/* About Section */}
       <section id="about" className="py-16 px-6 bg-white">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">About Me</h2>
-          <div className="space-y-6 text-lg text-gray-600 leading-relaxed">
-            <p>
-              I'm a passionate Product Leader with extensive experience in educational technology, dedicated to creating 
-              products that make a meaningful impact on teaching and learning. As the incoming Head of Product at Brisk Teaching, 
-              I focus on building innovative solutions that empower educators and enhance student outcomes.
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-3xl font-bold mb-8 text-gray-900">About Me</h2>
+          <div className="space-y-6">
+            <p className="text-lg text-gray-600 leading-relaxed max-w-3xl mx-auto">
+              Product Leader at Seesaw Learning, a learning experience platform for elementary education. 
+              Passionate about building great teams and creating products that deliver meaningful impact for 
+              students, educators, and families.
             </p>
-            <p>
-              My approach to product leadership centers around user-centered design, data-driven decision making, and 
-              collaborative cross-functional team leadership. I believe that the best educational technology products 
-              are born from deep understanding of educator and student needs, combined with strategic product vision 
-              and execution excellence.
-            </p>
-            <p>
-              When I'm not building products, you can find me staying current with the latest EdTech trends, mentoring 
-              emerging product managers, or exploring the beautiful outdoors of the San Francisco Bay Area. I'm always 
-              excited to connect with fellow educators and product enthusiasts.
+            <p className="text-lg text-gray-600 leading-relaxed max-w-3xl mx-auto">
+              Currently leading teams responsible for Core Experience, Instruction & Learning Insights, and 
+              Setup & Integrations. Excited about how people and organizations can work together more effectively. 
+              Fueled by copious amounts of oolong and green tea. 🍵
             </p>
           </div>
         </div>
@@ -125,20 +159,28 @@ const Index = () => {
 
       {/* Experience Section */}
       <section id="experience" className="py-16 px-6 bg-gray-50">
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">Experience</h2>
           <div className="space-y-8">
             {experiences.map((exp, index) => (
               <Card key={index} className="hover:shadow-lg transition-shadow duration-300">
                 <CardContent className="p-6">
-                  <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
-                    <div>
-                      <h3 className="text-xl font-semibold text-gray-900">{exp.role}</h3>
-                      <h4 className="text-lg text-blue-600 font-medium">{exp.company}</h4>
+                  <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between mb-4">
+                    <div className="mb-4 lg:mb-0">
+                      <h3 className="text-xl font-semibold text-gray-900 mb-1">{exp.role}</h3>
+                      <h4 className="text-lg text-blue-600 font-medium mb-2">{exp.company}</h4>
+                      <p className="text-gray-600 leading-relaxed mb-3">{exp.description}</p>
                     </div>
-                    <span className="text-gray-500 font-medium">{exp.period}</span>
+                    <span className="text-gray-500 font-medium lg:ml-6 flex-shrink-0">{exp.period}</span>
                   </div>
-                  <p className="text-gray-600 leading-relaxed">{exp.description}</p>
+                  <div className="space-y-2">
+                    {exp.highlights.map((highlight, hIndex) => (
+                      <div key={hIndex} className="flex items-start">
+                        <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                        <p className="text-gray-600">{highlight}</p>
+                      </div>
+                    ))}
+                  </div>
                 </CardContent>
               </Card>
             ))}
@@ -149,13 +191,17 @@ const Index = () => {
       {/* Skills Section */}
       <section id="skills" className="py-16 px-6 bg-white">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">Skills & Expertise</h2>
+          <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">Core Expertise</h2>
           <div className="grid md:grid-cols-2 gap-8">
             {skills.map((skill, index) => (
-              <div key={index} className="space-y-2">
-                <div className="flex justify-between items-center">
-                  <span className="font-medium text-gray-900">{skill.name}</span>
-                  <span className="text-gray-600">{skill.level}%</span>
+              <Card key={index} className="p-6 hover:shadow-lg transition-shadow duration-300">
+                <div className="flex items-center space-x-4 mb-4">
+                  <div className="p-3 bg-blue-100 rounded-full">
+                    <skill.icon className="h-6 w-6 text-blue-600" />
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="font-semibold text-gray-900">{skill.name}</h3>
+                  </div>
                 </div>
                 <div className="w-full bg-gray-200 rounded-full h-2">
                   <div 
@@ -163,7 +209,7 @@ const Index = () => {
                     style={{ width: `${skill.level}%` }}
                   ></div>
                 </div>
-              </div>
+              </Card>
             ))}
           </div>
         </div>
@@ -172,17 +218,17 @@ const Index = () => {
       {/* Contact Section */}
       <section id="contact" className="py-16 px-6 bg-gradient-to-br from-blue-600 to-purple-600 text-white">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-8">Let's Work Together</h2>
+          <h2 className="text-3xl font-bold mb-8">Let's Connect</h2>
           <p className="text-xl mb-8 opacity-90">
-            I'm always interested in new opportunities and collaborations in educational technology.
+            Always interested in new opportunities and collaborations in educational technology.
           </p>
           <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-6">
             <a 
-              href="mailto:brittany@example.com" 
+              href="mailto:bcheng42@gmail.com" 
               className="flex items-center space-x-2 bg-white text-blue-600 px-6 py-3 rounded-lg font-medium hover:bg-gray-100 transition-colors"
             >
               <Mail className="h-5 w-5" />
-              <span>Email Me</span>
+              <span>bcheng42@gmail.com</span>
             </a>
             <a 
               href="https://www.linkedin.com/in/bcheng42/" 
@@ -200,7 +246,7 @@ const Index = () => {
 
       {/* Footer */}
       <footer className="py-8 px-6 bg-gray-900 text-white text-center">
-        <p className="opacity-80">© 2024 Brittany Cheng. Building the future of educational technology.</p>
+        <p className="opacity-80">© 2024 Brittany Cheng. Creating joyful learning experiences at Seesaw.</p>
       </footer>
     </div>
   );
