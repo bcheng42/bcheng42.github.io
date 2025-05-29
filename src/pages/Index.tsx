@@ -108,7 +108,7 @@ const Index = () => {
 
                   <div>
                     <p className="text-base mb-3">
-                      <strong>My favorites:</strong> I am always down for{' '}
+                      <strong>My favorites:</strong> My weaknesses are{' '}
                       <a 
                         href="https://www.instagram.com/blooms_end/" 
                         target="_blank" 
