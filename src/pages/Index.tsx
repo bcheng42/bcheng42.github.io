@@ -156,6 +156,7 @@ const Index = () => {
             <span>LinkedIn</span>
             <ExternalLink className="h-4 w-4" />
           </a>
+          <li>hello[at]brittanycheng[dot]com</li>
         </section>
 
         {/* Footer */}
