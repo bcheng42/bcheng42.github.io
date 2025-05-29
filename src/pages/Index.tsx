@@ -107,20 +107,26 @@ const Index = () => {
         {/* Contact Section */}
         <section className="mb-16">
           <h2 className="text-2xl font-semibold text-gray-900 mb-6">Let's Connect</h2>
-          <div className="space-y-3">
-            <a 
-              href="https://www.linkedin.com/in/bcheng42/" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="inline-flex items-center space-x-2 text-blue-600 hover:text-blue-800 transition-colors"
-            >
-              <Linkedin className="h-5 w-5" />
-              <span>LinkedIn</span>
-              <ExternalLink className="h-4 w-4" />
-            </a>
-            <div className="inline-flex items-center space-x-2 text-gray-700">
-              <Mail className="h-5 w-5" />
-              <span>hello[at]brittanycheng[dot]com</span>
+          <div className="space-y-3 text-gray-700">
+            <div className="flex items-center space-x-2">
+              <span>•</span>
+              <a 
+                href="https://www.linkedin.com/in/bcheng42/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-flex items-center space-x-2 text-blue-600 hover:text-blue-800 transition-colors"
+              >
+                <Linkedin className="h-5 w-5" />
+                <span>LinkedIn</span>
+                <ExternalLink className="h-4 w-4" />
+              </a>
+            </div>
+            <div className="flex items-center space-x-2">
+              <span>•</span>
+              <div className="inline-flex items-center space-x-2">
+                <Mail className="h-5 w-5" />
+                <span>hello[at]brittanycheng[dot]com</span>
+              </div>
             </div>
           </div>
         </section>
