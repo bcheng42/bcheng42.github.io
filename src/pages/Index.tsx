@@ -35,14 +35,14 @@ const Index = () => {
                     <p className="text-base mb-3">
                       <strong>My day job:</strong> I lead a team of Product Managers at{' '}
                       <a 
-                        href="https://web.seesaw.me/" 
+                        href="https://seesaw.com/" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="text-blue-600 hover:text-blue-800 transition-colors"
                       >
                         Seesaw Learning
                       </a>
-                      {' '}responsible for Teacher & Family Engagement, Learning Insights & Reporting, and Setup & Integrations
+                      {' '}responsible for the Core Experience, Learning Insights, and Setup & Integrations
                     </p>
                     
                     <ul className="ml-6 space-y-2 text-gray-700 text-sm">
