@@ -7,8 +7,16 @@ const Index = () => {
     <div className="min-h-screen bg-white font-roboto-mono">
       <div className="max-w-4xl mx-auto px-6 py-16">
         
-        {/* Header with photo on left and content on right */}
+        {/* Header with full-width hello section */}
         <header className="mb-12">
+          {/* Hello section taking full width */}
+          <div className="mb-8">
+            <p className="text-xl mb-6">
+              👋 <strong>Hello! I'm Brittany Cheng Betten.</strong> Here is my (partially) AI-generated website with links to help you thoroughly stalk my web presence:
+            </p>
+          </div>
+
+          {/* Photo and content section */}
           <div className="flex flex-col md:flex-row items-start gap-8">
             <div className="flex-shrink-0">
               <div className="w-48 h-64 md:w-56 md:h-72 overflow-hidden rounded-lg shadow-lg">
@@ -23,10 +31,6 @@ const Index = () => {
             <div className="flex-1">
               {/* Main Content */}
               <div className="prose prose-lg max-w-none">
-                <p className="text-xl mb-6">
-                  👋 <strong>Hello! I'm Brittany Cheng Betten.</strong> Here is my (partially) AI-generated website with links to help you thoroughly stalk my web presence:
-                </p>
-
                 <div className="space-y-6">
                   <div>
                     <p className="text-lg font-semibold mb-3">
