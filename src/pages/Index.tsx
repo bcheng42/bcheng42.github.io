@@ -1,6 +1,5 @@
 
 import React from 'react';
-import { ExternalLink } from 'lucide-react';
 
 const Index = () => {
   return (
@@ -39,10 +38,9 @@ const Index = () => {
                         href="https://web.seesaw.me/" 
                         target="_blank" 
                         rel="noopener noreferrer"
-                        className="text-blue-600 hover:text-blue-800 transition-colors inline-flex items-center gap-1"
+                        className="text-blue-600 hover:text-blue-800 transition-colors"
                       >
                         Seesaw Learning
-                        <ExternalLink className="h-4 w-4" />
                       </a>
                       {' '}responsible for Teacher & Family Engagement, Learning Insights & Reporting, and Setup & Integrations.
                     </p>
@@ -54,10 +52,9 @@ const Index = () => {
                           href="https://seesaw.com/" 
                           target="_blank" 
                           rel="noopener noreferrer"
-                          className="text-blue-600 hover:text-blue-800 transition-colors inline-flex items-center gap-1"
+                          className="text-blue-600 hover:text-blue-800 transition-colors"
                         >
                           Seesaw
-                          <ExternalLink className="h-3 w-3" />
                         </a>
                         , I was responsible for messaging & family engagement as well as schools & admins products.
                       </li>
@@ -67,10 +64,9 @@ const Index = () => {
                           href="https://www.yelp.com/" 
                           target="_blank" 
                           rel="noopener noreferrer"
-                          className="text-blue-600 hover:text-blue-800 transition-colors inline-flex items-center gap-1"
+                          className="text-blue-600 hover:text-blue-800 transition-colors"
                         >
                           Yelp
-                          <ExternalLink className="h-3 w-3" />
                         </a>
                         {' '}🔎
                       </li>
@@ -84,30 +80,27 @@ const Index = () => {
                         href="https://opendoorlegal.org/" 
                         target="_blank" 
                         rel="noopener noreferrer"
-                        className="text-blue-600 hover:text-blue-800 transition-colors inline-flex items-center gap-1"
+                        className="text-blue-600 hover:text-blue-800 transition-colors"
                       >
                         volunteer
-                        <ExternalLink className="h-3 w-3" />
                       </a>
                       {' '}🤝,{' '}
                       <a 
                         href="https://www.yelp.com/biz/fort-mason-san-francisco-3" 
                         target="_blank" 
                         rel="noopener noreferrer"
-                        className="text-blue-600 hover:text-blue-800 transition-colors inline-flex items-center gap-1"
+                        className="text-blue-600 hover:text-blue-800 transition-colors"
                       >
                         run
-                        <ExternalLink className="h-3 w-3" />
                       </a>
                       {' '}🏃, and{' '}
                       <a 
                         href="http://www.yelp.com/biz/dogpatch-boulders-san-francisco" 
                         target="_blank" 
                         rel="noopener noreferrer"
-                        className="text-blue-600 hover:text-blue-800 transition-colors inline-flex items-center gap-1"
+                        className="text-blue-600 hover:text-blue-800 transition-colors"
                       >
                         climb
-                        <ExternalLink className="h-3 w-3" />
                       </a>
                       {' '}🧗
                     </p>
@@ -120,10 +113,9 @@ const Index = () => {
                         href="http://engineering.berkeley.edu/" 
                         target="_blank" 
                         rel="noopener noreferrer"
-                        className="text-blue-600 hover:text-blue-800 transition-colors inline-flex items-center gap-1"
+                        className="text-blue-600 hover:text-blue-800 transition-colors"
                       >
                         UC Berkeley
-                        <ExternalLink className="h-3 w-3" />
                       </a>
                       {' '}with a degree in Electrical Engineering & Computer Science and a certificate in Human-Centered Design
                     </p>
@@ -136,10 +128,9 @@ const Index = () => {
                         href="http://www.linkedin.com/in/bcheng42" 
                         target="_blank" 
                         rel="noopener noreferrer"
-                        className="text-blue-600 hover:text-blue-800 transition-colors inline-flex items-center gap-1"
+                        className="text-blue-600 hover:text-blue-800 transition-colors"
                       >
                         LinkedIn
-                        <ExternalLink className="h-3 w-3" />
                       </a>
                     </p>
                   </div>
