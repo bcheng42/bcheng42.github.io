@@ -33,7 +33,7 @@ const Index = () => {
                 <div className="space-y-6">
                   <div>
                     <p className="text-lg font-semibold mb-3">
-                      🍎 <strong>My day job:</strong> I lead a team of Product Managers at{' '}
+                      <strong>My day job:</strong> I lead a team of Product Managers at{' '}
                       <a 
                         href="https://web.seesaw.me/" 
                         target="_blank" 
@@ -75,7 +75,7 @@ const Index = () => {
 
                   <div>
                     <p className="text-lg mb-3">
-                      <strong>✨ My evenings and weekends:</strong> I{' '}
+                      <strong>My evenings and weekends:</strong> I{' '}
                       <a 
                         href="https://opendoorlegal.org/" 
                         target="_blank" 
@@ -108,7 +108,7 @@ const Index = () => {
 
                   <div>
                     <p className="text-lg mb-3">
-                      <strong>🐻 My alma mater:</strong> I graduated from{' '}
+                      <strong>My alma mater:</strong> I graduated from{' '}
                       <a 
                         href="http://engineering.berkeley.edu/" 
                         target="_blank" 
@@ -123,7 +123,7 @@ const Index = () => {
 
                   <div>
                     <p className="text-lg">
-                      👩‍💻 <strong>My resume:</strong> I list my professional activities on{' '}
+                      <strong>My resume:</strong> I list my professional activities on{' '}
                       <a 
                         href="http://www.linkedin.com/in/bcheng42" 
                         target="_blank" 
