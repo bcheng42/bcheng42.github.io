@@ -4,14 +4,14 @@ import { ExternalLink } from 'lucide-react';
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white font-roboto-mono">
       <div className="max-w-4xl mx-auto px-6 py-16">
         
         {/* Header with photo on left and content on right */}
         <header className="mb-12">
           <div className="flex flex-col md:flex-row items-start gap-8">
             <div className="flex-shrink-0">
-              <div className="w-32 h-40 md:w-40 md:h-52 overflow-hidden rounded-lg shadow-lg">
+              <div className="w-48 h-64 md:w-56 md:h-72 overflow-hidden rounded-lg shadow-lg">
                 <img 
                   src="/lovable-uploads/9c3d84a3-a916-46f2-b339-905004a35b2a.png" 
                   alt="Brittany Cheng Betten" 
