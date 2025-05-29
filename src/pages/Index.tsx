@@ -3,14 +3,14 @@ import React from 'react';
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-white font-roboto-mono">
+    <div className="min-h-screen bg-white font-lexend">
       <div className="max-w-4xl mx-auto px-6 py-16">
         
         {/* Header with full-width hello section */}
         <header className="mb-12">
           {/* Hello section taking full width */}
           <div className="mb-8">
-            <p className="text-xl mb-6">
+            <p className="text-lg mb-6">
               👋 <strong>Hello! I'm Brittany Cheng Betten.</strong> Here is my (partially) AI-generated website with links to help you thoroughly stalk my web presence...
             </p>
           </div>
@@ -32,7 +32,7 @@ const Index = () => {
               <div className="prose prose-lg max-w-none">
                 <div className="space-y-6">
                   <div>
-                    <p className="text-lg font-semibold mb-3">
+                    <p className="text-base font-semibold mb-3">
                       <strong>My day job:</strong> I lead a team of Product Managers at{' '}
                       <a 
                         href="https://web.seesaw.me/" 
@@ -45,7 +45,7 @@ const Index = () => {
                       {' '}responsible for Teacher & Family Engagement, Learning Insights & Reporting, and Setup & Integrations.
                     </p>
                     
-                    <ul className="ml-6 space-y-2 text-gray-700">
+                    <ul className="ml-6 space-y-2 text-gray-700 text-sm">
                       <li>
                         • As a PM at{' '}
                         <a 
@@ -74,7 +74,7 @@ const Index = () => {
                   </div>
 
                   <div>
-                    <p className="text-lg mb-3">
+                    <p className="text-base mb-3">
                       <strong>My evenings and weekends:</strong> I{' '}
                       <a 
                         href="https://opendoorlegal.org/" 
@@ -107,7 +107,7 @@ const Index = () => {
                   </div>
 
                   <div>
-                    <p className="text-lg mb-3">
+                    <p className="text-base mb-3">
                       <strong>My alma mater:</strong> I graduated from{' '}
                       <a 
                         href="http://engineering.berkeley.edu/" 
@@ -122,7 +122,7 @@ const Index = () => {
                   </div>
 
                   <div>
-                    <p className="text-lg">
+                    <p className="text-base">
                       <strong>My resume:</strong> I list my professional activities on{' '}
                       <a 
                         href="http://www.linkedin.com/in/bcheng42" 
@@ -141,7 +141,7 @@ const Index = () => {
         </header>
 
         {/* Footer */}
-        <footer className="text-center text-gray-500 text-sm border-t border-gray-200 pt-8 mt-16">
+        <footer className="text-center text-gray-500 text-xs border-t border-gray-200 pt-8 mt-16">
           <p>© 2025 Brittany Cheng Betten</p>
         </footer>
       </div>
