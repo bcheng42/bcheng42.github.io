@@ -32,7 +32,7 @@ const Index = () => {
               <div className="prose prose-lg max-w-none">
                 <div className="space-y-6">
                   <div>
-                    <p className="text-base font-semibold mb-3">
+                    <p className="text-base mb-3">
                       <strong>My day job:</strong> I lead a team of Product Managers at{' '}
                       <a 
                         href="https://web.seesaw.me/" 
@@ -131,7 +131,7 @@ const Index = () => {
                         className="text-blue-600 hover:text-blue-800 transition-colors"
                       >
                         LinkedIn
-                      </a>
+                      </a>{' '}💼
                     </p>
                   </div>                  
                 </div>
@@ -143,7 +143,6 @@ const Index = () => {
         {/* Footer */}
         <footer className="text-center text-gray-500 text-xs border-t border-gray-200 pt-8 mt-16">
           <p>© 2025 Brittany Cheng Betten </p>
-          <p>✉️ hello[at]brittanycheng[dot]com</p>
         </footer>
       </div>
     </div>
