@@ -108,7 +108,7 @@ const Index = () => {
 
                   <div>
                     <p className="text-base mb-3">
-                      <strong>My favorites:</strong> I'm food motivated and especially love{' '}
+                      <strong>My favorites:</strong> I'm food motivated — especially{' '}
                       <a 
                         href="https://www.instagram.com/blooms_end/" 
                         target="_blank" 
