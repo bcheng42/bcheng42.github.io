@@ -47,7 +47,7 @@ const Index = () => {
                     
                     <ul className="ml-6 space-y-2 text-gray-700 text-sm">
                       <li>
-                        • As a PM at{' '}
+                        • Previously, as a PM at{' '}
                         <a 
                           href="https://seesaw.com/" 
                           target="_blank" 
