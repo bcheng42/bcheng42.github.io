@@ -108,14 +108,14 @@ const Index = () => {
 
                   <div>
                     <p className="text-base mb-3">
-                      <strong>My favorites:</strong> I can be bribed with{' '}
+                      <strong>My favorites:</strong> I'm motivated by{' '}
                       <a 
                         href="https://www.instagram.com/blooms_end/" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="text-blue-600 hover:text-blue-800 transition-colors"
                       >
-                        pastries
+                        croissants
                       </a>
                       {' '}🥐 and/or{' '}
                       <a 
