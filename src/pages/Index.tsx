@@ -55,8 +55,8 @@ const Index = () => {
                           className="text-blue-600 hover:text-blue-800 transition-colors"
                         >
                           Seesaw
-                        </a>
-                        , I was responsible for messaging & family engagement as well as schools & admins products.🏫
+                        </a>{' '}🍎
+                        , I was responsible for messaging & family engagement as well as schools & admins products.
                       </li>
                       <li>
                         • Before that, I worked on the core search experience (#searchUX) and international product (#i18n) at{' '}
