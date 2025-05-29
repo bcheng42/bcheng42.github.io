@@ -117,7 +117,7 @@ const Index = () => {
                       >
                         UC Berkeley
                       </a>
-                      {' '}with a degree in Electrical Engineering & Computer Science and a certificate in Human-Centered Design.
+                      {' '}🐻 with a degree in Electrical Engineering & Computer Science and a certificate in Human-Centered Design.
                     </p>
                   </div>
 
