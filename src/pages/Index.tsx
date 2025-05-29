@@ -1,4 +1,5 @@
 
+
 import React from 'react';
 
 const Index = () => {
@@ -10,7 +11,7 @@ const Index = () => {
         <header className="mb-12">
           {/* Hello section taking full width */}
           <div className="mb-8">
-            <p className="text-sm mb-6">
+            <p className="text-base mb-6">
               👋 <strong>Hello! I'm Brittany Cheng Betten.</strong> Here is my (partially) AI-generated website with links to help you thoroughly stalk my web presence...
             </p>
           </div>
@@ -150,3 +151,4 @@ const Index = () => {
 };
 
 export default Index;
+
