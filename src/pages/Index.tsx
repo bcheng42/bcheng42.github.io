@@ -42,7 +42,7 @@ const Index = () => {
                       >
                         Seesaw Learning
                       </a>
-                      {' '}responsible for the core product experience
+                      {' '}responsible for the core teacher, family, & admin experience
                     </p>
                     
                     <ul className="ml-6 space-y-2 text-gray-700 text-sm">
