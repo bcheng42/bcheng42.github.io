@@ -108,7 +108,7 @@ const Index = () => {
 
                   <div>
                     <p className="text-base mb-3">
-                      <strong>My favorites:</strong> I'm food motivated, especially{' '}
+                      <strong>My favorites:</strong> I'm food motivated and especially love{' '}
                       <a 
                         href="https://www.instagram.com/blooms_end/" 
                         target="_blank" 
@@ -117,7 +117,7 @@ const Index = () => {
                       >
                         croissants
                       </a>
-                      {' '}🥐 and/or{' '}
+                      {' '}🥐 and{' '}
                       <a 
                         href="https://www.instagram.com/ashateahouse/?hl=en"
                         target="_blank" 
