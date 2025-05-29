@@ -1,6 +1,6 @@
-
 import React from 'react';
 import { Linkedin, ExternalLink } from 'lucide-react';
+import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
 
 const Index = () => {
   return (
@@ -9,7 +9,13 @@ const Index = () => {
         
         {/* Header */}
         <header className="mb-16">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">Brittany Cheng Betten</h1>
+          <div className="flex items-center gap-6 mb-4">
+            <Avatar className="h-20 w-20">
+              <AvatarImage src="/placeholder.svg" alt="Brittany Cheng Betten" />
+              <AvatarFallback className="text-lg font-semibold">BCB</AvatarFallback>
+            </Avatar>
+            <h1 className="text-4xl font-bold text-gray-900">Brittany Cheng Betten</h1>
+          </div>
           <p className="text-xl text-gray-600 leading-relaxed">
             Product Leader at Seesaw Learning, a learning experience platform for elementary education. 
             Passionate about building great teams and creating products that deliver meaningful impact for 
@@ -38,8 +44,23 @@ const Index = () => {
           
           <div className="space-y-8">
             <div>
+              <h3 className="text-lg font-semibold text-gray-900">Head of Product</h3>
+              <p className="text-gray-600 mb-2">Brisk Teaching • June 2025 - Present</p>
+              <ul className="space-y-2 text-gray-700">
+                <li className="flex items-start">
+                  <span className="mr-3">🚀</span>
+                  <span>Leading product strategy and innovation in educational technology</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="mr-3">👥</span>
+                  <span>Building and scaling product teams for rapid growth</span>
+                </li>
+              </ul>
+            </div>
+
+            <div>
               <h3 className="text-lg font-semibold text-gray-900">Senior Manager, Product Management</h3>
-              <p className="text-gray-600 mb-2">Seesaw Learning • Sep 2023 - Present</p>
+              <p className="text-gray-600 mb-2">Seesaw Learning • Sep 2023 - June 2025</p>
               <ul className="space-y-2 text-gray-700">
                 <li className="flex items-start">
                   <span className="mr-3">🚀</span>
