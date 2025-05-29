@@ -146,9 +146,6 @@ const Index = () => {
         {/* Contact Section */}
         <section className="mb-16">
           <h2 className="text-2xl font-semibold text-gray-900 mb-6">Let's Connect</h2>
-          <p className="text-gray-700 mb-6">
-            Always interested in new opportunities and collaborations in educational technology.
-          </p>
           <a 
             href="https://www.linkedin.com/in/bcheng42/" 
             target="_blank" 
@@ -163,7 +160,7 @@ const Index = () => {
 
         {/* Footer */}
         <footer className="text-center text-gray-500 text-sm border-t border-gray-200 pt-8">
-          <p>© 2025 Brittany Cheng Betten.</p>
+          <p>© 2025 Brittany Cheng Betten</p>
         </footer>
       </div>
     </div>
