@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { MapPin, Mail, Linkedin, ExternalLink, Download, Users, TrendingUp, Target, Award } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -54,13 +55,6 @@ const Index = () => {
     { name: "Educational Technology", level: 98, icon: Award }
   ];
 
-  const achievements = [
-    { metric: "6+ years", label: "at Seesaw Learning" },
-    { metric: "50%+", label: "business expansion" },
-    { metric: "20+", label: "percentage point usage increase" },
-    { metric: "5-7x", label: "customer growth supported" }
-  ];
-
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     element?.scrollIntoView({ behavior: 'smooth' });
@@ -68,75 +62,6 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
-      {/* Navigation */}
-      <nav className="fixed top-0 w-full bg-white/80 backdrop-blur-md z-50 border-b border-gray-200">
-        <div className="max-w-6xl mx-auto px-6 py-4">
-          <div className="flex justify-between items-center">
-            <h1 className="text-xl font-bold text-gray-900">Brittany Cheng</h1>
-            <div className="hidden md:flex space-x-8">
-              <button onClick={() => scrollToSection('about')} className="text-gray-600 hover:text-blue-600 transition-colors">About</button>
-              <button onClick={() => scrollToSection('experience')} className="text-gray-600 hover:text-blue-600 transition-colors">Experience</button>
-              <button onClick={() => scrollToSection('skills')} className="text-gray-600 hover:text-blue-600 transition-colors">Skills</button>
-              <button onClick={() => scrollToSection('contact')} className="text-gray-600 hover:text-blue-600 transition-colors">Contact</button>
-            </div>
-          </div>
-        </div>
-      </nav>
-
-      {/* Hero Section */}
-      <section className="pt-24 pb-16 px-6">
-        <div className="max-w-6xl mx-auto">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="space-y-8">
-              <div className="space-y-4">
-                <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-                  Product Leader at 
-                  <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent"> Seesaw</span>
-                </h1>
-                <p className="text-xl text-gray-600 leading-relaxed">
-                  Creating joyful, connected, and inclusive learning experiences for students, educators, and families.
-                </p>
-              </div>
-              
-              {/* Achievement Stats */}
-              <div className="grid grid-cols-2 gap-4">
-                {achievements.map((achievement, index) => (
-                  <div key={index} className="text-center p-4 bg-white rounded-lg shadow-sm">
-                    <div className="text-2xl font-bold text-blue-600">{achievement.metric}</div>
-                    <div className="text-sm text-gray-600">{achievement.label}</div>
-                  </div>
-                ))}
-              </div>
-
-              <div className="flex flex-col sm:flex-row gap-4">
-                <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
-                  <Download className="mr-2 h-4 w-4" />
-                  Download Resume
-                </Button>
-                <Button variant="outline" size="lg" onClick={() => scrollToSection('contact')}>
-                  Get In Touch
-                </Button>
-              </div>
-              
-              <div className="flex items-center space-x-4 text-gray-600">
-                <div className="flex items-center">
-                  <MapPin className="h-4 w-4 mr-1" />
-                  <span>San Francisco Bay Area</span>
-                </div>
-              </div>
-            </div>
-            
-            <div className="relative">
-              <div className="w-80 h-80 mx-auto bg-gradient-to-br from-blue-400 to-purple-500 rounded-full flex items-center justify-center text-white text-6xl font-bold shadow-2xl">
-                BC
-              </div>
-              <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-yellow-400 rounded-full opacity-80"></div>
-              <div className="absolute -top-4 -left-4 w-16 h-16 bg-pink-400 rounded-full opacity-60"></div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* About Section */}
       <section id="about" className="py-16 px-6 bg-white">
         <div className="max-w-4xl mx-auto text-center">
@@ -238,7 +163,7 @@ const Index = () => {
 
       {/* Footer */}
       <footer className="py-8 px-6 bg-gray-900 text-white text-center">
-        <p className="opacity-80">© 2024 Brittany Cheng. Creating joyful learning experiences at Seesaw.</p>
+        <p className="opacity-80">© 2024 Brittany Cheng Betten. Creating joyful learning experiences at Seesaw.</p>
       </footer>
     </div>
   );
