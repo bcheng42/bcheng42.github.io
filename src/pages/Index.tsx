@@ -72,7 +72,7 @@ const Index = () => {
                   <div>
                     <div className="font-bold text-base mb-1">My evenings and weekends</div>
                     <p className="text-base leading-tight">
-                      I{' '}
+                      I like to keep busy! I {' '}
                       <a
                         href="https://opendoorlegal.org/"
                         target="_blank"
