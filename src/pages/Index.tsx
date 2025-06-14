@@ -155,11 +155,7 @@ const Index = () => {
                       </a>{' '}💼
                     </p>
                   </div> 
-                  <div>
-                    <p className="text-base">
-                      <strong>Get in touch:</strong> You can reach me via email at <b>hello[at]brittanycheng[dot]com</b> ✉️
-                    </p>
-                  </div> 
+                  
                 </div>
               </div>
             </div>
