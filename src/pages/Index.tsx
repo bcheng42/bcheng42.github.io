@@ -33,33 +33,30 @@ const Index = () => {
                 <div className="space-y-6">
                   <div>
                     <p className="text-base mb-3">
-                      <strong>My day job:</strong> I lead a team of Product Managers at{' '}
+                      <strong>My day job:</strong> I'm the Head of Product at{' '}
                       <a 
-                        href="https://seesaw.com/" 
+                        href="https://www.briskteaching.com/" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="text-blue-600 hover:text-blue-800 transition-colors"
                       >
-                        Seesaw Learning
+                        Brisk Teaching
                       </a>
-                      {' '}responsible for core teacher, family, & admin experiences
+                      {' '}where we're building an AI Assistant for every teacher and classroom
                     </p>
                     
                     <ul className="ml-6 space-y-2 text-gray-700 text-sm">
                       <li>
-                        • Previously, as a PM at{' '}
+                        • Previously, I led product teams at{' '}
                         <a 
                           href="https://seesaw.com/" 
                           target="_blank" 
                           rel="noopener noreferrer"
                           className="text-blue-600 hover:text-blue-800 transition-colors"
                         >
-                          Seesaw
+                          Seesaw Learning
                         </a>{' '}🍎
-                        , I was responsible for messaging & family engagement as well as schools & admins products
-                      </li>
-                      <li>
-                        • Before that, I worked on the core search experience (#searchUX) and international product (#i18n) at{' '}
+                        and{' '}
                         <a 
                           href="https://www.yelp.com/" 
                           target="_blank" 
