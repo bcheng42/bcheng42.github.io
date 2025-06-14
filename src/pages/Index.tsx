@@ -29,11 +29,11 @@ const Index = () => {
             <div className="flex-1">
               {/* Main Content */}
               <div className="prose prose-lg max-w-none">
-                <div className="space-y-8">
+                <div className="space-y-4">
                   {/* Day job section */}
                   <div>
                     <div className="font-bold text-base mb-2">My day job:</div>
-                    <p className="text-base mb-4">
+                    <p className="text-base leading-tight">
                       I'm the Head of Product at{' '}
                       <a
                         href="https://www.briskteaching.com/"
@@ -45,7 +45,7 @@ const Index = () => {
                       </a>
                       {' '}✨ where we're building an AI Assistant for every teacher and classroom
                     </p>
-                    <p className="text-base">
+                    <p className="text-base leading-tight">
                       Previously, I led product teams at{' '}
                       <a
                         href="https://seesaw.com/"
@@ -71,7 +71,7 @@ const Index = () => {
                   {/* Evenings and weekends section */}
                   <div>
                     <div className="font-bold text-base mb-2">My evenings and weekends:</div>
-                    <p className="text-base">
+                    <p className="text-base leading-tight">
                       I{' '}
                       <a
                         href="https://opendoorlegal.org/"
@@ -106,7 +106,7 @@ const Index = () => {
                   {/* Favorites section */}
                   <div>
                     <div className="font-bold text-base mb-2">My favorites:</div>
-                    <p className="text-base">
+                    <p className="text-base leading-tight">
                       I especially love{' '}
                       <a
                         href="https://www.instagram.com/blooms_end/"
@@ -132,7 +132,7 @@ const Index = () => {
                   {/* Alma mater section */}
                   <div>
                     <div className="font-bold text-base mb-2">My alma mater:</div>
-                    <p className="text-base">
+                    <p className="text-base leading-tight">
                       I graduated from{' '}
                       <a
                         href="https://engineering.berkeley.edu/"
@@ -149,7 +149,7 @@ const Index = () => {
                   {/* Resume section */}
                   <div>
                     <div className="font-bold text-base mb-2">My resume:</div>
-                    <p className="text-base">
+                    <p className="text-base leading-tight">
                       I list my professional activities on{' '}
                       <a
                         href="https://www.linkedin.com/in/bcheng42"
