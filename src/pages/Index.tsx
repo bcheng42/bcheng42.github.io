@@ -32,7 +32,7 @@ const Index = () => {
                 <div className="space-y-4">
                   {/* Day job section */}
                   <div>
-                    <div className="font-bold text-base mb-2">My day job:</div>
+                    <div className="font-bold text-base mb-1">My day job</div>
                     <p className="text-base leading-tight">
                       I'm the Head of Product at{' '}
                       <a
@@ -70,7 +70,7 @@ const Index = () => {
 
                   {/* Evenings and weekends section */}
                   <div>
-                    <div className="font-bold text-base mb-2">My evenings and weekends:</div>
+                    <div className="font-bold text-base mb-1">My evenings and weekends</div>
                     <p className="text-base leading-tight">
                       I{' '}
                       <a
@@ -105,7 +105,7 @@ const Index = () => {
 
                   {/* Favorites section */}
                   <div>
-                    <div className="font-bold text-base mb-2">My favorites:</div>
+                    <div className="font-bold text-base mb-1">My favorites</div>
                     <p className="text-base leading-tight">
                       I especially love{' '}
                       <a
@@ -131,7 +131,7 @@ const Index = () => {
 
                   {/* Alma mater section */}
                   <div>
-                    <div className="font-bold text-base mb-2">My alma mater:</div>
+                    <div className="font-bold text-base mb-1">My alma mater</div>
                     <p className="text-base leading-tight">
                       I graduated from{' '}
                       <a
@@ -148,7 +148,7 @@ const Index = () => {
 
                   {/* Resume section */}
                   <div>
-                    <div className="font-bold text-base mb-2">My resume:</div>
+                    <div className="font-bold text-base mb-1">My resume</div>
                     <p className="text-base leading-tight">
                       I list my professional activities on{' '}
                       <a
