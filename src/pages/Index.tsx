@@ -43,11 +43,7 @@ const Index = () => {
                         Brisk Teaching
                       </a>
                       {' '}✨ where we're building an AI Assistant for every teacher and classroom
-                    </p>
-                    
-                    <ul className="ml-6 space-y-2 text-gray-700 text-sm">
-                      <li>
-                        • Previously, I led product teams at{' '}
+                      <br/> Previously, I led product teams at{' '}
                         <a 
                           href="https://seesaw.com/" 
                           target="_blank" 
@@ -66,8 +62,7 @@ const Index = () => {
                           Yelp
                         </a>
                         {' '}🔎
-                      </li>
-                    </ul>
+                    </p>
                   </div>
 
                   <div>
