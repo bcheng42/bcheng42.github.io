@@ -9,7 +9,7 @@ const Index = () => {
         {/* Header with full-width hello section */}
         <header className="mb-12">
           {/* Hello section taking full width */}
-          <div className="mb-8">
+          <div className="mb-10">
             <p className="text-base mb-6">
               👋 <strong className="text-xl">Hello! I'm Brittany Cheng Betten</strong><br/> Here is my (partially) AI-generated website with links to help you thoroughly stalk my web presence...
             </p>
@@ -30,9 +30,9 @@ const Index = () => {
             <div className="flex-1">
               {/* Main Content */}
               <div className="prose prose-lg max-w-none">
-                <div className="space-y-6">
+                <div className="space-y-8">
                   <div>
-                    <p className="text-base mb-3">
+                    <p className="text-base mb-4">
                       <strong>My day job:</strong> I'm the Head of Product at{' '}
                       <a 
                         href="https://www.briskteaching.com/" 
@@ -43,7 +43,9 @@ const Index = () => {
                         Brisk Teaching
                       </a>
                       {' '}✨ where we're building an AI Assistant for every teacher and classroom
-                      <br/><br/> Previously, I led product teams at{' '}
+                    </p>
+                    <p className="text-base">
+                      Previously, I led product teams at{' '}
                         <a 
                           href="https://seesaw.com/" 
                           target="_blank" 
@@ -66,7 +68,7 @@ const Index = () => {
                   </div>
 
                   <div>
-                    <p className="text-base mb-3">
+                    <p className="text-base">
                       <strong>My evenings and weekends:</strong> I{' '}
                       <a 
                         href="https://opendoorlegal.org/" 
@@ -99,7 +101,7 @@ const Index = () => {
                   </div>
 
                   <div>
-                    <p className="text-base mb-3">
+                    <p className="text-base">
                       <strong>My favorites:</strong> I especially love{' '}
                       <a 
                         href="https://www.instagram.com/blooms_end/" 
@@ -123,7 +125,7 @@ const Index = () => {
                   </div>
 
                   <div>
-                    <p className="text-base mb-3">
+                    <p className="text-base">
                       <strong>My alma mater:</strong> I graduated from{' '}
                       <a 
                         href="https://engineering.berkeley.edu/" 
